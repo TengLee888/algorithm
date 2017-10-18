@@ -16,11 +16,11 @@
 
 
 
-### array 語法
-a[start:end] # items start through end-1
-a[start:]    # items start through the rest of the array
-a[:end]      # items from the beginning through end-1
-a[:]         # a copy of the whole array
+### Array 語法
+- a[start:end] # items start through end-1
+- a[start:]    # items start through the rest of the array
+- a[:end]      # items from the beginning through end-1
+- a[:]         # a copy of the whole array
 
 ## 補充
 ### 演算法的時間複雜度分為以下三種狀況：
@@ -219,6 +219,9 @@ book['milk'] = 1.49
 - 一旦負載係數較高(0.7)，為避免碰撞產生，就就要增加儲存槽，稱為Resizing
 
 
+<br>
+
+
 # Ch6 廣度優先搜尋法
 - 搜尋兩點之間最短距離，eg：西洋棋如何用最少移動次數獲勝，拼字檢查，地圖上兩點距離
 - 演算法尋找的必定是最短路徑，必須完成兩個步驟
@@ -252,7 +255,10 @@ book['milk'] = 1.49
 ### if not checkname in searched
 - same as ```if checkname not in searched```
 
-# Ch6 Dijkstra's algorithm 代克斯托演算法
+<br>
+
+
+# Ch7 Dijkstra's algorithm 代克斯托演算法
 - 廣度優先搜尋會找最少路徑，代克斯托法可以找出最快路徑
 - 每個會加上權重weight
 1. 尋找最容易抵達的節點，也就是花費最少時間
@@ -265,6 +271,9 @@ book['milk'] = 1.49
 
 ### keys()
 returns a list of all the available keys in the dictionary.
+
+
+<br>
 
 
 # Ch8 貪婪演算法(一種近似演算法)
@@ -323,6 +332,9 @@ returns a list of all the available keys in the dictionary.
 ```
 for key, value in d.items():
 ```
+
+<br>
+
 
 # Ch9 動態規劃演算法
 - 從子問題著手解決所有問題
